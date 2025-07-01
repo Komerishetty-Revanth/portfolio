@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer | Python Enthusiast</p>
+    </header>
+    <section>
+        <h2>About Me</h2>
+        <p>This is a brief introduction about yourself. You can mention your skills, experience, and interests.</p>
+    </section>
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1 – Description</li>
+            <li>Project 2 – Description</li>
+        </ul>
+    </section>
+    <footer>
+        <a href="{{ url_for('contact') }}">Contact Me</a>
+    </footer>
+</body>
+</html>
